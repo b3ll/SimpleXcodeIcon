@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66AC23241AD8360F0085E604 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66AC23231AD8360F0085E604 /* AppKit.framework */; };
+		66AC23261AD8360F0085E604 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66AC23251AD8360F0085E604 /* Foundation.framework */; };
+		66AC232D1AD8360F0085E604 /* XCPSimpleXcodeIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AC232C1AD8360F0085E604 /* XCPSimpleXcodeIcon.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66AC23201AD8360F0085E604 /* SimpleXcodeIcon.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleXcodeIcon.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		66AC23231AD8360F0085E604 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		66AC23251AD8360F0085E604 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66AC23291AD8360F0085E604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66AC232A1AD8360F0085E604 /* SimpleXcodeIcon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleXcodeIcon-Prefix.pch"; sourceTree = "<group>"; };
+		66AC232B1AD8360F0085E604 /* XCPSimpleXcodeIcon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCPSimpleXcodeIcon.h; sourceTree = "<group>"; };
+		66AC232C1AD8360F0085E604 /* XCPSimpleXcodeIcon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCPSimpleXcodeIcon.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66AC231D1AD8360F0085E604 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66AC23241AD8360F0085E604 /* AppKit.framework in Frameworks */,
+				66AC23261AD8360F0085E604 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66AC23171AD8360F0085E604 = {
+			isa = PBXGroup;
+			children = (
+				66AC23271AD8360F0085E604 /* SimpleXcodeIcon */,
+				66AC23221AD8360F0085E604 /* Frameworks */,
+				66AC23211AD8360F0085E604 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66AC23211AD8360F0085E604 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66AC23201AD8360F0085E604 /* SimpleXcodeIcon.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66AC23221AD8360F0085E604 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66AC23231AD8360F0085E604 /* AppKit.framework */,
+				66AC23251AD8360F0085E604 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66AC23271AD8360F0085E604 /* SimpleXcodeIcon */ = {
+			isa = PBXGroup;
+			children = (
+				66AC232B1AD8360F0085E604 /* XCPSimpleXcodeIcon.h */,
+				66AC232C1AD8360F0085E604 /* XCPSimpleXcodeIcon.m */,
+				66AC23281AD8360F0085E604 /* Supporting Files */,
+			);
+			path = SimpleXcodeIcon;
+			sourceTree = "<group>";
+		};
+		66AC23281AD8360F0085E604 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66AC23291AD8360F0085E604 /* Info.plist */,
+				66AC232A1AD8360F0085E604 /* SimpleXcodeIcon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66AC231F1AD8360F0085E604 /* SimpleXcodeIcon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66AC23301AD8360F0085E604 /* Build configuration list for PBXNativeTarget "SimpleXcodeIcon" */;
+			buildPhases = (
+				66AC231C1AD8360F0085E604 /* Sources */,
+				66AC231D1AD8360F0085E604 /* Frameworks */,
+				66AC231E1AD8360F0085E604 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleXcodeIcon;
+			productName = SimpleXcodeIcon;
+			productReference = 66AC23201AD8360F0085E604 /* SimpleXcodeIcon.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66AC23181AD8360F0085E604 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XCP;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Adam Bell";
+				TargetAttributes = {
+					66AC231F1AD8360F0085E604 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 66AC231B1AD8360F0085E604 /* Build configuration list for PBXProject "SimpleXcodeIcon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66AC23171AD8360F0085E604;
+			productRefGroup = 66AC23211AD8360F0085E604 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66AC231F1AD8360F0085E604 /* SimpleXcodeIcon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66AC231E1AD8360F0085E604 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66AC231C1AD8360F0085E604 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66AC232D1AD8360F0085E604 /* XCPSimpleXcodeIcon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		66AC232E1AD8360F0085E604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		66AC232F1AD8360F0085E604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		66AC23311AD8360F0085E604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleXcodeIcon/SimpleXcodeIcon-Prefix.pch";
+				INFOPLIST_FILE = SimpleXcodeIcon/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		66AC23321AD8360F0085E604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleXcodeIcon/SimpleXcodeIcon-Prefix.pch";
+				INFOPLIST_FILE = SimpleXcodeIcon/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66AC231B1AD8360F0085E604 /* Build configuration list for PBXProject "SimpleXcodeIcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66AC232E1AD8360F0085E604 /* Debug */,
+				66AC232F1AD8360F0085E604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66AC23301AD8360F0085E604 /* Build configuration list for PBXNativeTarget "SimpleXcodeIcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66AC23311AD8360F0085E604 /* Debug */,
+				66AC23321AD8360F0085E604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66AC23181AD8360F0085E604 /* Project object */;
+}
